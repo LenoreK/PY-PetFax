@@ -9,7 +9,22 @@
 </head>
 <body>
     <div class="container">
-        <H1>UserFax</H1>
+        <H1>Submit Fax</H1>
+        <div class="callout">
+            If you have some animal facts you'd like to share, please submit them here.
+        </div>
+        <div class="facts-container">
+            <form>
+                <label for="submitter"><h2>Name</h2></label>
+                <input name="submitter" type="text" />
+                <br />
+                <label for="fact"><h2>Fact</h2></label>
+                <textarea name="fact"></textarea>
+                <br />
+                <input type="submit" value="submit the Fact" />
+            </form>
+            <a href="/pets">Go Back</a>
+        </div>
     </div>
 </body>
 </html>
